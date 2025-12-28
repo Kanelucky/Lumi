@@ -358,6 +358,11 @@ public class EntitySpawnerTask implements Runnable {
             case EntityPhantom.NETWORK_ID:
                 Difficulty difficulty = Server.getInstance().getDifficulty();
                 return end || nether ? 0 : difficulty == Difficulty.EASY ? 2 : difficulty == Difficulty.NORMAL ? 3 : 4;
+            case EntityCow.NETWORK_ID:
+            case EntityChicken.NETWORK_ID:
+            case EntityPig.NETWORK_ID:
+            case EntitySheep.NETWORK_ID:
+                return end || nether ? 0 : 4;    
             default:
                 return end || nether ? 0 : 2;
         }
