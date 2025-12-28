@@ -30,7 +30,7 @@ public enum LangCode {
     sv_SE("Svenska (Sverige)"),
     tr_TR("Türkçe (Türkiye)"),
     uk_UA("Українська (Україна)"),
-    vi_VN("Tiếng Việt (Việt Nam)");git add .
+    vi_VN("Tiếng Việt (Việt Nam)");
 
     private final String string;
 
