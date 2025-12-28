@@ -93086,9 +93086,9 @@
           "auxValue": 32767
         },
         "B": {
-          "type": "complex_alias",
+          "type": "default",
           "count": 1,
-          "name": "minecraft:sand"
+          "itemId": "minecraft:sand"
         }
       },
       "output": [
